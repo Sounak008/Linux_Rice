@@ -1,0 +1,4 @@
+* {
+    font: "FiraCode Nerd Font Medium 10";
+    big-font: "FiraCode Nerd Font Medium 20";
+}

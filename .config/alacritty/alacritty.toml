@@ -1,0 +1,65 @@
+window.padding.x = 25
+window.padding.y = 25
+window.opacity= 0.7
+# Colors (Alabaster Dark)
+# author tonsky
+
+[cursor]
+style = {shape = "Beam", blinking = "On"}
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "SemiBold"}
+
+# BEGIN WAL
+[colors.primary]
+background = '#150f0c'
+foreground = '#e4ddcf'
+
+[colors.cursor]
+text   = '#150f0c' # Apply background color to color of text inside cursor
+cursor = '#e4ddcf' # Apply foreground color to color of cursor
+
+[colors.vi_mode_cursor]
+text    = '#150f0c' # Same as above
+cursor  = '#e4ddcf'
+
+[colors.search.matches]
+foreground = '#150f0c' # Same as above
+background = '#e4ddcf' # Apply bright/white color to bg color of matching search
+
+[colors.search.focused_match]
+foreground = 'CellBackground'
+background = 'CellForeground'
+
+[colors.line_indicator]
+foreground = 'None'
+background = 'None'
+
+[colors.footer_bar]
+foreground = '#9f9a90'
+background = '#e4ddcf'
+
+[colors.selection]
+text       = 'CellBackground'
+background = 'CellForeground'
+
+[colors.normal]
+black   = '#150f0c'
+red     = '#7C8528'
+green   = '#9EA025'
+yellow  = '#CE9E5C'
+blue    = '#C6B74F'
+magenta = '#CCB8AA'
+cyan    = '#D5C995'
+white   = '#e4ddcf'
+
+[colors.bright]
+black   = '#9f9a90'
+red     = '#7C8528'
+green   = '#9EA025'
+yellow  = '#CE9E5C'
+blue    = '#C6B74F'
+magenta = '#CCB8AA'
+cyan    = '#D5C995'
+white   = '#e4ddcf'
+# END WAL

@@ -1,0 +1,3 @@
+killall redshift
+
+redshift

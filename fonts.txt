@@ -1,0 +1,5 @@
+1. FiraCode Mono
+2. Jetbrains Mono
+3. Iosevka Mono
+
+Any font should be a nerd fonts version.
